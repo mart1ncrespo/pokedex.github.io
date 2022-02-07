@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.poke_cuerpo{
+    z-index: 1;
+    height: 90vmax;
+    margin: 10px 5px;
+    border-radius: 10px;
+    /* width: 95vmax; */
+    background-color: #b10101
+}
+.poke_superior{
+    width: 100%;
+    height: 15%;
+    border-radius: 10px;
+    clip-path: polygon(100% 0, 100% 35%, 63% 35%, 33% 70%, 0 70%, 0 0);
+    background-color: #940000;
+    z-index: 10;
+}
+.b_superior{
+    z-index: 15;
+    /* height: 2em; */
+    font-size: 1em;
+    border-radius: 50%;
+    padding:20px 25px;
+    color: #64bcdf;
+    background-color: #64bcdf;
+    margin: .5em 0 0 .5em;
+}
+
+.b_superior_1 button{
+    font-size: 1em;
+    border-radius: 50%;
+    padding:0px 7px;
+    margin-left: 8px;
+}
+.b1{
+    color: #ff1d1d;
+    background-color: #ff1d1d;
+}
+.b2{
+    color: #ffe818;
+    background-color: #ffe818;
+}
+.b3{
+    color: #65e000;
+    background-color: #65e000;
+}
+/* .poke_superior .b_superior{
+    z-index: 15;
+    width: 4em;
+    height: 70%;
+    margin-left: 1em;
+    clip-path: circle();
+    background-color: silver;
+    position: relative;
+    display: inline-block;
+} */
+/* .poke_superior .b_superior div{
+    z-index: 20;
+    top: 1em;
+    width: 3.5em;
+    height: 60%;
+    margin-left: .3em;
+    /* margin-top: .5em; */
+    /* clip-path: circle();
+    position: absolute;
+    background-color: #530101; */
+/* }  */
+
+.b_superior_1{
+    /* z-index: 30; */
+    background-color: #940000;;
+    display: inline-block;
+}
+.poke_informacion{
+    background-color: silver;
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
