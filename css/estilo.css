@@ -8,14 +8,14 @@
     margin: 10px 5px;
     border-radius: 10px;
     /* width: 95vmax; */
-    background-color: #b10101
+    background-color: #940000
 }
 .poke_superior{
     width: 100%;
     height: 15%;
     border-radius: 10px;
     clip-path: polygon(100% 0, 100% 35%, 63% 35%, 33% 70%, 0 70%, 0 0);
-    background-color: #940000;
+    background-color: #b10101;
     z-index: 10;
 }
 .b_superior{
@@ -71,7 +71,7 @@
 
 .b_superior_1{
     /* z-index: 30; */
-    background-color: #940000;;
+    background-color: #b10101;
     display: inline-block;
 }
 .poke_informacion{
@@ -80,4 +80,66 @@
     height: 30%;
     margin: 0 auto;
     border-radius: 12px;
+}
+.poke_botones{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 35%;
+    width: 90%;
+    margin: 10% auto;
+}
+.btn_poke_ramdom{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 1em;
+    border-radius: 50%;
+    background-color: #5e5e5e;
+}
+.btn_poke_ramdom::after{
+    content: "\027a4";
+    font-size: 2em;
+    display: inline-block;
+    color: #2e2e2e;
+}
+.btn_poke_lujo{
+    height: 1.5em;
+    width: 90%;
+    margin: auto auto;
+    background-color: #ffe818;
+    border-radius: 10px;
+}
+.btn_poke_retroceder{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    height: 4em;
+    margin: auto 0;
+    background-color: #5e5e5e;
+    border-radius: 10px 0 0 10px;
+}
+.btn_poke_retroceder::after{
+    content: "\025c0";
+    font-size: 2em;
+    display: inline-block;
+    color: #2e2e2e;
+}
+.btn_poke_avanzar{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    height: 4em;
+    margin: auto 0;
+    background-color: #5e5e5e;
+    border-radius: 0 10px 10px 0;
+}
+.btn_poke_avanzar::after{
+    content: "\025ba";
+    font-size: 2em;
+    display: inline-block;
+    color: #2e2e2e;
+}
+.poke_descripcion{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: #62830a;
+    border-radius: 5px;
 }
