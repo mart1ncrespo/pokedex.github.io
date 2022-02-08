@@ -76,10 +76,11 @@
 }
 .poke_informacion{
     background-color: silver;
-    width: 90%;
+    width: 85%;
     height: 30%;
     margin: 0 auto;
     border-radius: 12px;
+    border: 1rem solid #fafafa;
 }
 .poke_botones{
     display: grid;
@@ -132,7 +133,7 @@
     border-radius: 0 10px 10px 0;
 }
 .btn_poke_avanzar::after{
-    content: "\025ba";
+    content: "\025b6";
     font-size: 2em;
     display: inline-block;
     color: #2e2e2e;
