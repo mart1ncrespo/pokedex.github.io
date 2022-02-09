@@ -82,10 +82,15 @@
     border-radius: 12px;
     border: 1rem solid #fafafa;
 }
+.poke_nombre{
+    font-size: 2em;
+    text-align: center;
+    font-family: cursive;
+}
 .poke_imagen{
     display: block;
-    height: 80%;
-    margin: 0 auto;
+    height: 70%;
+    margin: .5em auto;
 }
 .poke_botones{
     display: grid;

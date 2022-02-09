@@ -5,6 +5,7 @@ let fetchPokemon = async ()=>{
         let data = await response.json();
         let pokemon = {
             imagen: data.sprites.other.dream_world.front_default,
+            nombre: data.species.name
         }
 
         insertarPokemon(pokemon);
@@ -17,6 +18,9 @@ fetchPokemon();
 
 let insertarPokemon = (poke)=>{
     let imagen = document.querySelector(".poke_imagen");
+    let nombre = document.querySelector(".poke_nombre");
+    console.log(nombre);
+    nombre.innerText = poke.nombre;
     imagen.setAttribute('src',poke.imagen)
 }
 
